@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ToDoService {
     @GetMapping("/")
     public String helloWorld(){
-        return "hello, World!";
+        return "To-do Application !";
     }
 }
